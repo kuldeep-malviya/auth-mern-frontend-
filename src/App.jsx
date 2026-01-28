@@ -1,3 +1,4 @@
+throw new Error("CHECKING WHICH APP.JSX RENDER IS USING");
 import React from 'react'
 import {BrowserRouter,Routes,Route, Navigate} from "react-router-dom"
 import Login from './pages/login.jsx'
