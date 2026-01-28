@@ -25,7 +25,7 @@ const Login = () => {
             return handelError("email, password is required")
         }
         try {
-            const url = "https://auth-mern-49g9.onrender.com/auth/login"
+            const url = "https://auth-mern-1-pw6l.onrender.com/auth/login"
             const response = await fetch(url,{
                 method:"POST",
                 headers:{
