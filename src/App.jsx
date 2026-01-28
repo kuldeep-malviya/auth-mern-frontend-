@@ -1,8 +1,8 @@
 throw new Error("CHECKING WHICH APP.JSX RENDER IS USING");
 import React from 'react'
 import {BrowserRouter,Routes,Route, Navigate} from "react-router-dom"
-import Login from './pages/login.jsx'
-import Signup from './pages/signup.jsx'
+import Login from './pages/Login.jsx'
+import Signup from './pages/Signup.jsx'
 import Home from './pages/Home.jsx'
 
 const App = () => {
