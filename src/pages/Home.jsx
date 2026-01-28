@@ -20,7 +20,7 @@ const Home = () => {
     },1000)
   }
   const fetchProducts = async () => {
-    const url = "https://auth-mern-49g9.onrender.com/products"
+    const url = "https://auth-mern-1-pw6l.onrender.com/products"
     const headers = {
         headers:{
           "Authorization":localStorage.getItem("token")
